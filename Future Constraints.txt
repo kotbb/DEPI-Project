@@ -1,0 +1,3 @@
+Instructor can make exam for his course only.
+Total score must not exceed the course max degree.
+The start time of the exam when the instructor creates it , it should be in the future

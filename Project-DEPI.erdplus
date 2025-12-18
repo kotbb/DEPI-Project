@@ -66,35 +66,12 @@
         "dragging": false
       },
       {
-        "id": "25724b46-5a17-4400-bdc6-7ffec88a38bb",
-        "parentId": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
-        "type": "Attribute",
-        "position": {
-          "x": -35.428975917420416,
-          "y": -129.7173193806533
-        },
-        "data": {
-          "label": "personal_data",
-          "types": {
-            "Unique": false
-          },
-          "isSelected": false,
-          "isConnectable": false
-        },
-        "measured": {
-          "width": 100,
-          "height": 50
-        },
-        "selected": false,
-        "dragging": false
-      },
-      {
         "id": "0cb56a4c-bd6c-4788-a9ec-24be8020ed81",
         "parentId": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
         "type": "Attribute",
         "position": {
-          "x": 65.10274814845673,
-          "y": -114.39321517814707
+          "x": 130.55746892416482,
+          "y": -83.59099363663739
         },
         "data": {
           "label": "stud_id",
@@ -144,8 +121,8 @@
           "isConnectable": true
         },
         "measured": {
-          "width": 25,
-          "height": 42
+          "width": 26,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -163,8 +140,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 33,
-          "height": 42
+          "width": 34,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -213,29 +190,6 @@
         "dragging": false
       },
       {
-        "id": "38e4ee4f-51d5-4fc1-b5fe-dcfab092429d",
-        "parentId": "ee73a807-506e-43e3-a30e-28ab869d0b69",
-        "type": "Attribute",
-        "position": {
-          "x": 61.11242662686334,
-          "y": -99.71745808588219
-        },
-        "data": {
-          "label": "user_name",
-          "types": {
-            "Unique": false
-          },
-          "isSelected": false,
-          "isConnectable": false
-        },
-        "measured": {
-          "width": 100,
-          "height": 50
-        },
-        "selected": false,
-        "dragging": false
-      },
-      {
         "id": "7d4e6522-bc06-47f6-9558-9427423ad377",
         "parentId": "4f06a6cd-c611-4a47-ae63-a8f5bd70bb5b",
         "type": "Attribute",
@@ -259,27 +213,6 @@
         "dragging": false
       },
       {
-        "id": "ffff0b0e-f914-48c1-81aa-6e98a526958f",
-        "parentId": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
-        "type": "Attribute",
-        "position": {
-          "x": -98.16682310716146,
-          "y": -71.15125028647427
-        },
-        "data": {
-          "label": "branch_id",
-          "types": [],
-          "isSelected": false,
-          "isConnectable": false
-        },
-        "measured": {
-          "width": 100,
-          "height": 50
-        },
-        "selected": false,
-        "dragging": false
-      },
-      {
         "id": "29d5e9fb-fd02-4b3e-bef3-87eb0d458bc4",
         "parentId": "e7404c19-4ef4-4447-a068-610496d84ec9",
         "type": "Attribute",
@@ -288,7 +221,7 @@
           "y": -76.21379120524551
         },
         "data": {
-          "label": "personal_data",
+          "label": "hire_date",
           "types": [],
           "isSelected": false,
           "isConnectable": false
@@ -305,8 +238,8 @@
         "parentId": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
         "type": "Attribute",
         "position": {
-          "x": 125.59863044652502,
-          "y": -72.86573824518447
+          "x": 183.35279583685568,
+          "y": -36.92981311342316
         },
         "data": {
           "label": "track_id",
@@ -328,8 +261,8 @@
         "parentId": "ee73a807-506e-43e3-a30e-28ab869d0b69",
         "type": "Attribute",
         "position": {
-          "x": 186.99915226136864,
-          "y": -40.473154895243624
+          "x": 179.29859687599128,
+          "y": -66.1416728465017
         },
         "data": {
           "label": "role_id",
@@ -349,8 +282,8 @@
         "parentId": "ee73a807-506e-43e3-a30e-28ab869d0b69",
         "type": "Attribute",
         "position": {
-          "x": 159.07132852415305,
-          "y": -96.26224903095297
+          "x": 69.23151569474976,
+          "y": -84.71141595288684
         },
         "data": {
           "label": "password",
@@ -390,8 +323,8 @@
         "parentId": "c6cf6e57-90ad-41c6-b1b5-3e3f19ac8284",
         "type": "Attribute",
         "position": {
-          "x": -6.429395695523604e-15,
-          "y": -105
+          "x": -34.652499234198444,
+          "y": -71.63092666336449
         },
         "data": {
           "label": "branch_id",
@@ -406,15 +339,16 @@
           "width": 100,
           "height": 50
         },
-        "selected": false
+        "selected": false,
+        "dragging": false
       },
       {
         "id": "4564beea-891c-46d5-964e-d02e9f4c7ca0",
         "parentId": "c6cf6e57-90ad-41c6-b1b5-3e3f19ac8284",
         "type": "Attribute",
         "position": {
-          "x": -87.7729000735286,
-          "y": -74.9142403832019
+          "x": -116.00826981991253,
+          "y": -24.860630378248658
         },
         "data": {
           "label": "branch_name",
@@ -442,8 +376,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 25,
-          "height": 42
+          "width": 26,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -461,8 +395,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 33,
-          "height": 42
+          "width": 34,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -480,8 +414,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 33,
-          "height": 42
+          "width": 34,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -838,7 +772,7 @@
           "y": 749.7049337915793
         },
         "data": {
-          "label": "Question_MC_TF",
+          "label": "Question_MC",
           "type": "Regular",
           "isConnectable": false,
           "isSelected": false
@@ -1308,8 +1242,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 25,
-          "height": 42
+          "width": 26,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1327,8 +1261,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 25,
-          "height": 42
+          "width": 26,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1346,8 +1280,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 25,
-          "height": 42
+          "width": 26,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1365,8 +1299,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 25,
-          "height": 42
+          "width": 26,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1384,8 +1318,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 25,
-          "height": 42
+          "width": 26,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1403,8 +1337,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 25,
-          "height": 42
+          "width": 26,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1492,8 +1426,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 33,
-          "height": 42
+          "width": 34,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1519,7 +1453,8 @@
         "measured": {
           "width": 100,
           "height": 50
-        }
+        },
+        "selected": false
       },
       {
         "id": "8370a71c-aeec-443f-91c4-e7ef62e8ab77",
@@ -1534,8 +1469,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 25,
-          "height": 42
+          "width": 26,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1553,8 +1488,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 33,
-          "height": 42
+          "width": 34,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1598,8 +1533,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 25,
-          "height": 42
+          "width": 26,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1617,8 +1552,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 33,
-          "height": 42
+          "width": 34,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1662,8 +1597,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 25,
-          "height": 42
+          "width": 26,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1681,8 +1616,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 33,
-          "height": 42
+          "width": 34,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1700,8 +1635,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 25,
-          "height": 42
+          "width": 26,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1719,8 +1654,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 25,
-          "height": 42
+          "width": 26,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1831,8 +1766,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 33,
-          "height": 42
+          "width": 34,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1850,8 +1785,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 33,
-          "height": 42
+          "width": 34,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -1975,8 +1910,8 @@
           "isConnectable": false
         },
         "measured": {
-          "width": 33,
-          "height": 42
+          "width": 34,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -2000,7 +1935,8 @@
         "measured": {
           "width": 100,
           "height": 50
-        }
+        },
+        "selected": false
       },
       {
         "id": "2b3b9be6-7feb-4624-8045-7b519eb064eb",
@@ -2052,7 +1988,7 @@
           "y": 4.7905876264386436
         },
         "data": {
-          "label": "Relationship",
+          "label": "assigned to",
           "sourceEntityDetails": {
             "id": "453758ad-b317-4b37-bee8-2744df497482"
           },
@@ -2082,8 +2018,8 @@
           "isSelected": false
         },
         "measured": {
-          "width": 25,
-          "height": 42
+          "width": 26,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -2100,8 +2036,8 @@
           "isSelected": false
         },
         "measured": {
-          "width": 33,
-          "height": 42
+          "width": 34,
+          "height": 43
         },
         "selected": false,
         "dragging": false
@@ -2118,8 +2054,170 @@
           "isSelected": false
         },
         "measured": {
-          "width": 33,
-          "height": 42
+          "width": 34,
+          "height": 43
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "46cc6e9b-0174-46af-a434-6ffab182d273",
+        "parentId": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
+        "type": "Attribute",
+        "position": {
+          "x": -91.31572876102715,
+          "y": -145.2196164586691
+        },
+        "data": {
+          "label": "date_of_birth",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "1c36645f-56e6-4636-a09d-961956ccc328",
+        "parentId": "ee73a807-506e-43e3-a30e-28ab869d0b69",
+        "type": "Attribute",
+        "position": {
+          "x": 229.73323566376007,
+          "y": -18.208886166038788
+        },
+        "data": {
+          "label": "email",
+          "types": {
+            "Unique": true
+          },
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "0654f3d1-a3af-49c1-8c80-e8f2fa882300",
+        "parentId": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
+        "type": "Attribute",
+        "position": {
+          "x": 1.4210854715202004e-14,
+          "y": -150.4017536150179
+        },
+        "data": {
+          "label": "f_name",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "b810f294-9291-410f-80de-568746f1eec7",
+        "parentId": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
+        "type": "Attribute",
+        "position": {
+          "x": 65.64721080976906,
+          "y": -122.11795030253678
+        },
+        "data": {
+          "label": "l_name",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "b3f18514-c02f-47cf-9771-a31140640eb5",
+        "parentId": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
+        "type": "Attribute",
+        "position": {
+          "x": -140.9843586978585,
+          "y": -90.0323028634642
+        },
+        "data": {
+          "label": "address",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "1761b57a-1062-4f49-8adb-12dce1d84114",
+        "parentId": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
+        "type": "Attribute",
+        "position": {
+          "x": -139.6524992341984,
+          "y": -41.06962872201291
+        },
+        "data": {
+          "label": "gender",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "86e4b30e-4b52-46a0-85a9-22b160c84503",
+        "parentId": "e7404c19-4ef4-4447-a068-610496d84ec9",
+        "type": "Attribute",
+        "position": {
+          "x": 106.283425897563,
+          "y": 19.251388463443618
+        },
+        "data": {
+          "label": "instructor_name",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "7894d2d5-f82b-4057-ad05-13d7ff73004f",
+        "parentId": "4f06a6cd-c611-4a47-ae63-a8f5bd70bb5b",
+        "type": "Attribute",
+        "position": {
+          "x": 105.04843356609717,
+          "y": 4.0427677267496165
+        },
+        "data": {
+          "label": "manager_name",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
         },
         "selected": false,
         "dragging": false
@@ -2131,12 +2229,6 @@
         "type": "Attribute",
         "source": "e7404c19-4ef4-4447-a068-610496d84ec9",
         "target": "2f232942-a9c4-4e10-b562-5842f2932cd2"
-      },
-      {
-        "id": "8b609b77-e6e7-4ccd-b6a7-aa7a77586412",
-        "type": "Attribute",
-        "source": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
-        "target": "25724b46-5a17-4400-bdc6-7ffec88a38bb"
       },
       {
         "id": "7e006e38-a243-450e-b41e-c12537ea514a",
@@ -2158,23 +2250,11 @@
         "target": "206de617-9bec-487d-8852-455f56b1fa27"
       },
       {
-        "id": "c23c7453-2dc0-49bc-9d6c-6429b79cd7d0",
-        "type": "Attribute",
-        "source": "ee73a807-506e-43e3-a30e-28ab869d0b69",
-        "target": "38e4ee4f-51d5-4fc1-b5fe-dcfab092429d"
-      },
-      {
         "id": "fdf58137-ec00-4ede-b747-123d94a0c6db",
         "type": "Attribute",
         "source": "4f06a6cd-c611-4a47-ae63-a8f5bd70bb5b",
         "target": "7d4e6522-bc06-47f6-9558-9427423ad377",
         "selected": false
-      },
-      {
-        "id": "5054ab5a-cc0f-40f5-97f4-551375b9f2c9",
-        "type": "Attribute",
-        "source": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
-        "target": "ffff0b0e-f914-48c1-81aa-6e98a526958f"
       },
       {
         "id": "713322f6-25b6-49a9-9451-ba472a8e32af->09ca4dd9-1db9-4780-b31b-3f8d3d262d01;09ca4dd9-1db9-4780-b31b-3f8d3d262d01->3dd5b816-4920-4f43-9340-464ee5da7c33",
@@ -2677,12 +2757,60 @@
           "id": "3a557c1f-ae69-4d26-a5b1-cafdaa48b398->ee73a807-506e-43e3-a30e-28ab869d0b69",
           "minCardinality": "Mandatory"
         }
+      },
+      {
+        "id": "63ad9f68-4b9e-4ad4-ad2c-41157595bf1b",
+        "type": "Attribute",
+        "source": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
+        "target": "46cc6e9b-0174-46af-a434-6ffab182d273"
+      },
+      {
+        "id": "8b60dbbe-71e4-4b5d-b492-3779a5bbbb92",
+        "type": "Attribute",
+        "source": "ee73a807-506e-43e3-a30e-28ab869d0b69",
+        "target": "1c36645f-56e6-4636-a09d-961956ccc328"
+      },
+      {
+        "id": "701f31ea-1026-41ff-b237-f67dd9b955ad",
+        "type": "Attribute",
+        "source": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
+        "target": "0654f3d1-a3af-49c1-8c80-e8f2fa882300"
+      },
+      {
+        "id": "4ecb594e-5e7b-48aa-ba00-b7af8f5c7a58",
+        "type": "Attribute",
+        "source": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
+        "target": "b810f294-9291-410f-80de-568746f1eec7"
+      },
+      {
+        "id": "adbc7087-dc00-4f5a-8614-483f9f11d50e",
+        "type": "Attribute",
+        "source": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
+        "target": "b3f18514-c02f-47cf-9771-a31140640eb5"
+      },
+      {
+        "id": "29c3016e-ae36-4c5b-9609-194d2fd0d220",
+        "type": "Attribute",
+        "source": "09ca4dd9-1db9-4780-b31b-3f8d3d262d01",
+        "target": "1761b57a-1062-4f49-8adb-12dce1d84114"
+      },
+      {
+        "id": "f552c7b5-5c68-44e4-8420-7f34118d201b",
+        "type": "Attribute",
+        "source": "e7404c19-4ef4-4447-a068-610496d84ec9",
+        "target": "86e4b30e-4b52-46a0-85a9-22b160c84503"
+      },
+      {
+        "id": "7a78518a-3727-465a-b00e-c2b48b89f76f",
+        "type": "Attribute",
+        "source": "4f06a6cd-c611-4a47-ae63-a8f5bd70bb5b",
+        "target": "7894d2d5-f82b-4057-ad05-13d7ff73004f"
       }
     ],
     "viewport": {
-      "x": 851.8668395429663,
-      "y": 267.9513964428403,
-      "zoom": 1.039525904873737
+      "x": 639.3827067913379,
+      "y": -25.036508544853007,
+      "zoom": 0.6973718331752031
     }
   },
   "name": "Project-DEPI",
@@ -2705,5 +2833,5 @@
     "id": 156105
   },
   "id": 199434,
-  "updatedAtTimestamp": 1765992539
+  "updatedAtTimestamp": 1766068844
 }
