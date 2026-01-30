@@ -126,6 +126,7 @@ GO
 
 CREATE TABLE [Student_Exam] (
   [student_id] int,
+  [total_score] int,
   [exam_id] int,
   [start_time] datetime,
   [submit_time] datetime,
