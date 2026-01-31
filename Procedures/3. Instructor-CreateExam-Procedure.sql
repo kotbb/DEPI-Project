@@ -3,6 +3,9 @@ CREATE PROCEDURE SP_Instructor_Create_Exam
     @instructor_id INT,
     @course_id INT,
     @exam_type NVARCHAR(50),
+	@start_time DATETIME,
+    @end_time DATETIME,
+    @total_time INT,
     @year INT,
 
     -- Manual Questions
@@ -15,31 +18,34 @@ CREATE PROCEDURE SP_Instructor_Create_Exam
 AS
 BEGIN
 
-    DECLARE @exam_id UNIQUEIDENTIFIER
-    SET @exam_id = NEWID()
+    INSERT INTO Exam 
+	(
+		course_id, 
+		instructor_id, 
+		exam_type, 
+		start_time, 
+		end_time, 
+		total_time, 
+		year
+	)
+    VALUES 
+	(
+		@course_id, 
+		@instructor_id, 
+		@exam_type, 
+		@start_time, 
+		@end_time, 
+		@total_time, 
+		@year
+	);
 
-    --  Create Exam
-    INSERT INTO Exam
-    (
-        exam_id,
-        course_id,
-        instructor_id,
-        exam_type,
-        year
-    )
-    VALUES
-    (
-        @exam_id,
-        @course_id,
-        @instructor_id,
-        @exam_type,
-        @year
-    )
+    -- Get the ID of the exam we just created
+    DECLARE @new_exam_id INT = SCOPE_IDENTITY();
 
     --  5 Random True/False Questions
     INSERT INTO Exam_Question (exam_id, question_id)
     SELECT TOP 5
-           @exam_id,
+           @new_exam_id,
            question_id
     FROM Question
     WHERE question_type = 'T/F'
@@ -49,10 +55,10 @@ BEGIN
     --  Manual Questions
     INSERT INTO Exam_Question (exam_id, question_id)
     VALUES
-        (@exam_id, @Q1),
-        (@exam_id, @Q2),
-        (@exam_id, @Q3),
-        (@exam_id, @Q4),
-        (@exam_id, @Q5)
+        (@new_exam_id, @Q1),
+        (@new_exam_id, @Q2),
+        (@new_exam_id, @Q3),
+        (@new_exam_id, @Q4),
+        (@new_exam_id, @Q5)
 
 END;
